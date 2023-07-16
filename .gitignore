@@ -1,0 +1,25 @@
+# Ignore Node.js related files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore build output
+/dist/
+/build/
+/out/
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.iml
+
+# Ignore Mac-specific files
+.DS_Store
+
+# Ignore log files
+*.log
+logs/
+log.txt
+
+# Ignore compiled CSS
+/public/css/.css

@@ -1,0 +1,59 @@
+
+/*=============================================
+=    Tailwind CSS Default Configuration      =
+=============================================*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*=====  End of Tailwind CSS Default Configuration  ======*/
+
+
+/*=============================================
+=          Preset CSS Start from Here      =
+=============================================*/
+
+.heading{
+    @apply text-left md:text-[40px]  lg:text-[65px] md:leading-[65px] lg:leading-[70px] font-bold sm:text-left sm:text-[40px] sm:leading-tight;
+}
+
+.secondary__Heading{
+    @apply text-black text-center font-inter text-[40px] font-semibold
+}
+
+.primary__Btn{
+    @apply bg-primary px-[16px] py-[8px] text-ligntWhite rounded-[5px] shadow-sm 
+    font-semibold
+    box-border
+    hover:text-primary
+    hover:bg-ligntWhite
+    transition-all
+    duration-300
+    hover:border-[1px]
+    hover:border-primary
+}
+
+.secondary__Btn{
+    @apply text-textColor flex justify-start items-center gap-2
+}
+
+.paragraph__Text{
+    @apply text-textColor md:text-[16px]  w-[90%] font-poppins font-normal py-3 leading-relaxed sm:text-[12px]
+
+}
+.reactangle_Box{
+    @apply h-[100px] rounded-sm bg-ligntWhite hover:border-primary  hover:border-[1px] hover:bg-secondary flex justify-center items-center cursor-pointer text-gray text-center hover:text-primary transition ease-in-out transform-cpu duration-500 box-border !w-[100%]
+}
+
+.reactangle_Box__heading{
+    @apply text-[25px] font-medium 
+}
+
+.plan__box__container{
+    @apply p-10 cursor-text
+}
+
+
+
+
